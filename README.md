@@ -25,4 +25,14 @@ The database uses the following key tables:
 1. Clone the repository:
    ```bash
    git clone https://github.com/your-username/Website-Customer-Tracker.git
+2. Import the SQL files in your preferred database management system.
+3. Run the stored procedures and triggers as described in the docs/ folder.
+
+## Usage
+- After setting up the database, execute the Login stored procedure to simulate user logins.
+- The system will automatically manage session timeouts and device limits.
+- Use the audit log to track user activities.
+
+## Contributing
+- Feel free to fork this repository and submit pull requests if you want to contribute.
 
